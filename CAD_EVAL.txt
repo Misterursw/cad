@@ -1,0 +1,63 @@
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.04930 
+test_iou_loss: 0.44537 
+test_dice: 0.77206 
+test_iou: 0.67377 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.18431 
+test_iou_loss: 0.58653 
+test_dice: 0.58145 
+test_iou: 0.47806 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.20903 
+test_iou_loss: 0.65485 
+test_dice: 0.50437 
+test_iou: 0.40683 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.14740 
+test_iou_loss: 0.74392 
+test_dice: 0.42204 
+test_iou: 0.33479 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.26936 
+test_iou_loss: 0.44890 
+test_dice: 0.70424 
+test_iou: 0.59439 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.20214 
+test_iou_loss: 0.44965 
+test_dice: 0.79072 
+test_iou: 0.68553 
+
+=== DONE === 
+
+CONV_ADAPTER_EVALUATION
+
+test_bce_loss: 0.20252 
+test_iou_loss: 0.28627 
+test_dice: 0.84785 
+test_iou: 0.76017 
+
+=== DONE === 
+

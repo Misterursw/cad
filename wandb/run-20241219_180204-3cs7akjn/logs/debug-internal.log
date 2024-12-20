@@ -1,0 +1,16 @@
+{"time":"2024-12-19T18:02:04.495255268+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-19T18:02:04.49529642+08:00","level":"INFO","msg":"created symlink","path":"/root/lzl/cad/code/wandb/run-20241219_180204-3cs7akjn/logs/debug-core.log"}
+{"time":"2024-12-19T18:02:04.615581299+08:00","level":"INFO","msg":"created new stream","id":"3cs7akjn"}
+{"time":"2024-12-19T18:02:04.615669449+08:00","level":"INFO","msg":"stream: started","id":"3cs7akjn"}
+{"time":"2024-12-19T18:02:04.615697831+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:02:04.615826306+08:00","level":"INFO","msg":"sender: started","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:02:04.615913958+08:00","level":"INFO","msg":"handler: started","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:02:05.483419355+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T18:51:27.691322078+08:00","level":"INFO","msg":"stream: closing","id":"3cs7akjn"}
+{"time":"2024-12-19T18:51:27.691396617+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-19T18:51:27.693005842+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-19T18:51:30.166533167+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-19T18:51:32.591506148+08:00","level":"INFO","msg":"handler: closed","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:51:32.591625192+08:00","level":"INFO","msg":"sender: closed","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:51:32.591617102+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3cs7akjn"}
+{"time":"2024-12-19T18:51:32.59191489+08:00","level":"INFO","msg":"stream: closed","id":"3cs7akjn"}

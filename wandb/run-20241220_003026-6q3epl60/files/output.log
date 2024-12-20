@@ -1,0 +1,92 @@
+=== PARAMETER STATISTICS ===
+Total Parameters: 95,509,040
+Trainable Parameters: 5,831,908
+Frozen Parameters: 89,677,132
+
+=== MODEL INFO ===
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+Sam                                                --
+├─ImageEncoderViT: 1-1                             3,145,728
+│    └─PatchEmbed: 2-1                             --
+│    │    └─Conv2d: 3-1                            (590,592)
+│    └─ModuleList: 2-2                             --
+│    │    └─Block: 3-2                             (7,091,328)
+│    │    └─Block: 3-3                             (7,091,328)
+│    │    └─Block: 3-4                             (7,104,128)
+│    │    └─Block: 3-5                             (7,091,328)
+│    │    └─Block: 3-6                             (7,091,328)
+│    │    └─Block: 3-7                             (7,104,128)
+│    │    └─Block: 3-8                             (7,091,328)
+│    │    └─Block: 3-9                             (7,091,328)
+│    │    └─Block: 3-10                            (7,104,128)
+│    │    └─Block: 3-11                            (7,091,328)
+│    │    └─Block: 3-12                            (7,091,328)
+│    │    └─Block: 3-13                            (7,104,128)
+│    └─Sequential: 2-3                             --
+│    │    └─Conv2d: 3-14                           (196,608)
+│    │    └─LayerNorm2d: 3-15                      (512)
+│    │    └─Conv2d: 3-16                           (589,824)
+│    │    └─LayerNorm2d: 3-17                      (512)
+├─PromptEncoder: 1-2                               --
+│    └─PositionEmbeddingRandom: 2-4                --
+│    └─ModuleList: 2-5                             --
+│    │    └─Embedding: 3-18                        (256)
+│    │    └─Embedding: 3-19                        (256)
+│    │    └─Embedding: 3-20                        (256)
+│    │    └─Embedding: 3-21                        (256)
+│    └─Embedding: 2-6                              (256)
+│    └─Sequential: 2-7                             --
+│    │    └─Conv2d: 3-22                           (20)
+│    │    └─LayerNorm2d: 3-23                      (8)
+│    │    └─GELU: 3-24                             --
+│    │    └─Conv2d: 3-25                           (272)
+│    │    └─LayerNorm2d: 3-26                      (32)
+│    │    └─GELU: 3-27                             --
+│    │    └─Conv2d: 3-28                           (4,352)
+│    └─Embedding: 2-8                              (256)
+├─MaskDecoder: 1-3                                 --
+│    └─TwoWayTransformer: 2-9                      --
+│    │    └─ModuleList: 3-29                       3,159,040
+│    │    └─Attention: 3-30                        131,712
+│    │    └─LayerNorm: 3-31                        512
+│    └─Embedding: 2-10                             256
+│    └─Embedding: 2-11                             1,024
+│    └─Sequential: 2-12                            --
+│    │    └─ConvTranspose2d: 3-32                  65,600
+│    │    └─LayerNorm2d: 3-33                      128
+│    │    └─GELU: 3-34                             --
+│    │    └─ConvTranspose2d: 3-35                  8,224
+│    │    └─GELU: 3-36                             --
+│    └─ModuleList: 2-13                            --
+│    │    └─MLP: 3-37                              139,808
+│    │    └─MLP: 3-38                              139,808
+│    │    └─MLP: 3-39                              139,808
+│    │    └─MLP: 3-40                              139,808
+│    └─MLP: 2-14                                   --
+│    │    └─ModuleList: 3-41                       132,612
+├─ConvAdapter: 1-4                                 --
+│    └─Conv2d: 2-15                                1,792
+│    └─ConvBlock: 2-16                             --
+│    │    └─Conv2d: 3-42                           590,080
+│    │    └─BatchNorm2d: 3-43                      512
+│    │    └─LeakyReLU: 3-44                        --
+│    │    └─AvgPool2d: 3-45                        --
+│    └─ConvBlock: 2-17                             --
+│    │    └─Conv2d: 3-46                           590,080
+│    │    └─BatchNorm2d: 3-47                      512
+│    │    └─LeakyReLU: 3-48                        --
+│    │    └─AvgPool2d: 3-49                        --
+│    └─ConvBlock: 2-18                             --
+│    │    └─Conv2d: 3-50                           590,080
+│    │    └─BatchNorm2d: 3-51                      512
+│    │    └─LeakyReLU: 3-52                        --
+│    │    └─AvgPool2d: 3-53                        --
+│    └─AdaptiveAvgPool2d: 2-19                     --
+===========================================================================
+Total params: 95,509,040
+Trainable params: 5,831,908
+Non-trainable params: 89,677,132
+===========================================================================
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                           | 158/236 [01:50<00:49,  1.58it/s]

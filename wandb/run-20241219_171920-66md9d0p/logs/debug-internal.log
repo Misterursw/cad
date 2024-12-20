@@ -1,0 +1,16 @@
+{"time":"2024-12-19T17:19:20.915716141+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-19T17:19:20.915744603+08:00","level":"INFO","msg":"created symlink","path":"/root/lzl/cad/code/wandb/run-20241219_171920-66md9d0p/logs/debug-core.log"}
+{"time":"2024-12-19T17:19:21.038717088+08:00","level":"INFO","msg":"created new stream","id":"66md9d0p"}
+{"time":"2024-12-19T17:19:21.038813078+08:00","level":"INFO","msg":"stream: started","id":"66md9d0p"}
+{"time":"2024-12-19T17:19:21.038852015+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"66md9d0p"}
+{"time":"2024-12-19T17:19:21.038854038+08:00","level":"INFO","msg":"handler: started","stream_id":"66md9d0p"}
+{"time":"2024-12-19T17:19:21.03887706+08:00","level":"INFO","msg":"sender: started","stream_id":"66md9d0p"}
+{"time":"2024-12-19T17:19:21.83074518+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T18:01:40.901896385+08:00","level":"INFO","msg":"stream: closing","id":"66md9d0p"}
+{"time":"2024-12-19T18:01:40.90197636+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-19T18:01:40.90329858+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-19T18:01:43.306218461+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-19T18:01:45.503042852+08:00","level":"INFO","msg":"handler: closed","stream_id":"66md9d0p"}
+{"time":"2024-12-19T18:01:45.503194324+08:00","level":"INFO","msg":"sender: closed","stream_id":"66md9d0p"}
+{"time":"2024-12-19T18:01:45.503177583+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"66md9d0p"}
+{"time":"2024-12-19T18:01:45.503472144+08:00","level":"INFO","msg":"stream: closed","id":"66md9d0p"}

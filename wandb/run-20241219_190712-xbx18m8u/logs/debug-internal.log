@@ -1,0 +1,16 @@
+{"time":"2024-12-19T19:07:13.041409739+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-19T19:07:13.041450247+08:00","level":"INFO","msg":"created symlink","path":"/root/lzl/cad/code/wandb/run-20241219_190712-xbx18m8u/logs/debug-core.log"}
+{"time":"2024-12-19T19:07:13.308125206+08:00","level":"INFO","msg":"created new stream","id":"xbx18m8u"}
+{"time":"2024-12-19T19:07:13.308196555+08:00","level":"INFO","msg":"stream: started","id":"xbx18m8u"}
+{"time":"2024-12-19T19:07:13.309606838+08:00","level":"INFO","msg":"sender: started","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T19:07:13.309683701+08:00","level":"INFO","msg":"handler: started","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T19:07:13.309711245+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T19:07:14.136419961+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-19T20:00:32.654984437+08:00","level":"INFO","msg":"stream: closing","id":"xbx18m8u"}
+{"time":"2024-12-19T20:00:32.655051154+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-19T20:00:32.656419932+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-19T20:00:35.13226097+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-19T20:00:37.497239163+08:00","level":"INFO","msg":"handler: closed","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T20:00:37.497348108+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T20:00:37.49746896+08:00","level":"INFO","msg":"sender: closed","stream_id":"xbx18m8u"}
+{"time":"2024-12-19T20:00:37.497543986+08:00","level":"INFO","msg":"stream: closed","id":"xbx18m8u"}
